@@ -1,0 +1,24 @@
+img{
+    /* transform: skew(30deg); */
+    /* transform: translate(300px); */
+    /* transform: rotate(30deg); */
+    
+    transform: scale(.5);
+    transition: transform 5s;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    background-color: aqua;
+    transition: background-color 5s,width 5s;
+}
+
+button:hover{
+    background-color: red;
+    width: 90px;
+}
+
+img:hover{
+    transform: scale(1);
+}
